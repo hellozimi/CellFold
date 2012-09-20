@@ -7,11 +7,18 @@
 //
 
 #import "UITableView+HCFoldTableView.h"
-#import <objc/runtime.h>
 #import <QuartzCore/QuartzCore.h>
 
+// Shading tag
 #define kHCShadingViewTag 0xff66
+
+// Clamp values between min and max
 #define clamp(min, max, value) (MIN(max, MAX(min, value)))
+
+/**
+ * Anchor Point 
+ * Sets the anchor point for a layer and properly resets the position.
+ */
 
 @interface UIView (AnchorPoint)
 - (void)setAnchorPoint:(CGPoint)anchorPoint;
