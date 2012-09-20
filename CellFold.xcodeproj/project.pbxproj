@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		327CF2BF1600A2B500ED0B2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327CF2BE1600A2B500ED0B2E /* UIKit.framework */; };
+		327CF2C11600A2B500ED0B2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327CF2C01600A2B500ED0B2E /* Foundation.framework */; };
+		327CF2C31600A2B500ED0B2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327CF2C21600A2B500ED0B2E /* CoreGraphics.framework */; };
+		327CF2DC1600A53500ED0B2E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327CF2DB1600A53500ED0B2E /* QuartzCore.framework */; };
+		F4DBF71B160BB06000E69B88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF71A160BB06000E69B88 /* main.m */; };
+		F4DBF71E160BB06800E69B88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4DBF71C160BB06800E69B88 /* InfoPlist.strings */; };
+		F4DBF721160BB07700E69B88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF720160BB07700E69B88 /* AppDelegate.m */; };
+		F4DBF728160BB07F00E69B88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF724160BB07F00E69B88 /* ViewController.m */; };
+		F4DBF729160BB07F00E69B88 /* UITableView+HCFoldTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DBF727160BB07F00E69B88 /* UITableView+HCFoldTableView.m */; };
+		F4DBF72C160BB08900E69B88 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DBF72A160BB08900E69B88 /* MainStoryboard.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		327CF2BA1600A2B500ED0B2E /* CellFold.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellFold.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		327CF2BE1600A2B500ED0B2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		327CF2C01600A2B500ED0B2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		327CF2C21600A2B500ED0B2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		327CF2DB1600A53500ED0B2E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F4DBF717160BB05A00E69B88 /* CellFold-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CellFold-Info.plist"; path = "CellFold/CellFold-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F4DBF718160BB05A00E69B88 /* CellFold-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CellFold-Prefix.pch"; path = "CellFold/CellFold-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		F4DBF71A160BB06000E69B88 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CellFold/main.m; sourceTree = SOURCE_ROOT; };
+		F4DBF71D160BB06800E69B88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = CellFold/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		F4DBF71F160BB07700E69B88 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = CellFold/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		F4DBF720160BB07700E69B88 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = CellFold/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		F4DBF723160BB07F00E69B88 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F4DBF724160BB07F00E69B88 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F4DBF726160BB07F00E69B88 /* UITableView+HCFoldTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+HCFoldTableView.h"; sourceTree = "<group>"; };
+		F4DBF727160BB07F00E69B88 /* UITableView+HCFoldTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+HCFoldTableView.m"; sourceTree = "<group>"; };
+		F4DBF72B160BB08900E69B88 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = CellFold/en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		327CF2B71600A2B500ED0B2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327CF2DC1600A53500ED0B2E /* QuartzCore.framework in Frameworks */,
+				327CF2BF1600A2B500ED0B2E /* UIKit.framework in Frameworks */,
+				327CF2C11600A2B500ED0B2E /* Foundation.framework in Frameworks */,
+				327CF2C31600A2B500ED0B2E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		327CF2AF1600A2B500ED0B2E = {
+			isa = PBXGroup;
+			children = (
+				327CF2C41600A2B500ED0B2E /* CellFold */,
+				327CF2BD1600A2B500ED0B2E /* Frameworks */,
+				327CF2BB1600A2B500ED0B2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		327CF2BB1600A2B500ED0B2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				327CF2BA1600A2B500ED0B2E /* CellFold.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		327CF2BD1600A2B500ED0B2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				327CF2DB1600A53500ED0B2E /* QuartzCore.framework */,
+				327CF2BE1600A2B500ED0B2E /* UIKit.framework */,
+				327CF2C01600A2B500ED0B2E /* Foundation.framework */,
+				327CF2C21600A2B500ED0B2E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		327CF2C41600A2B500ED0B2E /* CellFold */ = {
+			isa = PBXGroup;
+			children = (
+				F4DBF71F160BB07700E69B88 /* AppDelegate.h */,
+				F4DBF720160BB07700E69B88 /* AppDelegate.m */,
+				F4DBF722160BB07F00E69B88 /* Classes */,
+				F4DBF725160BB07F00E69B88 /* HCCellFold */,
+				F4DBF716160BB04C00E69B88 /* Supporting files */,
+			);
+			name = CellFold;
+			path = scrolltest;
+			sourceTree = "<group>";
+		};
+		F4DBF716160BB04C00E69B88 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				F4DBF72A160BB08900E69B88 /* MainStoryboard.storyboard */,
+				F4DBF71C160BB06800E69B88 /* InfoPlist.strings */,
+				F4DBF71A160BB06000E69B88 /* main.m */,
+				F4DBF717160BB05A00E69B88 /* CellFold-Info.plist */,
+				F4DBF718160BB05A00E69B88 /* CellFold-Prefix.pch */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		F4DBF722160BB07F00E69B88 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F4DBF723160BB07F00E69B88 /* ViewController.h */,
+				F4DBF724160BB07F00E69B88 /* ViewController.m */,
+			);
+			name = Classes;
+			path = CellFold/Classes;
+			sourceTree = SOURCE_ROOT;
+		};
+		F4DBF725160BB07F00E69B88 /* HCCellFold */ = {
+			isa = PBXGroup;
+			children = (
+				F4DBF726160BB07F00E69B88 /* UITableView+HCFoldTableView.h */,
+				F4DBF727160BB07F00E69B88 /* UITableView+HCFoldTableView.m */,
+			);
+			name = HCCellFold;
+			path = CellFold/HCCellFold;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		327CF2B91600A2B500ED0B2E /* CellFold */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327CF2D81600A2B500ED0B2E /* Build configuration list for PBXNativeTarget "CellFold" */;
+			buildPhases = (
+				327CF2B61600A2B500ED0B2E /* Sources */,
+				327CF2B71600A2B500ED0B2E /* Frameworks */,
+				327CF2B81600A2B500ED0B2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellFold;
+			productName = scrolltest;
+			productReference = 327CF2BA1600A2B500ED0B2E /* CellFold.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		327CF2B11600A2B500ED0B2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Monterosa;
+			};
+			buildConfigurationList = 327CF2B41600A2B500ED0B2E /* Build configuration list for PBXProject "CellFold" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 327CF2AF1600A2B500ED0B2E;
+			productRefGroup = 327CF2BB1600A2B500ED0B2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				327CF2B91600A2B500ED0B2E /* CellFold */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		327CF2B81600A2B500ED0B2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DBF71E160BB06800E69B88 /* InfoPlist.strings in Resources */,
+				F4DBF72C160BB08900E69B88 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		327CF2B61600A2B500ED0B2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DBF71B160BB06000E69B88 /* main.m in Sources */,
+				F4DBF721160BB07700E69B88 /* AppDelegate.m in Sources */,
+				F4DBF728160BB07F00E69B88 /* ViewController.m in Sources */,
+				F4DBF729160BB07F00E69B88 /* UITableView+HCFoldTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F4DBF71C160BB06800E69B88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DBF71D160BB06800E69B88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4DBF72A160BB08900E69B88 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DBF72B160BB08900E69B88 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		327CF2D61600A2B500ED0B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		327CF2D71600A2B500ED0B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		327CF2D91600A2B500ED0B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CellFold/CellFold-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CellFold/CellFold-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		327CF2DA1600A2B500ED0B2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CellFold/CellFold-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/CellFold/CellFold-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		327CF2B41600A2B500ED0B2E /* Build configuration list for PBXProject "CellFold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327CF2D61600A2B500ED0B2E /* Debug */,
+				327CF2D71600A2B500ED0B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327CF2D81600A2B500ED0B2E /* Build configuration list for PBXNativeTarget "CellFold" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327CF2D91600A2B500ED0B2E /* Debug */,
+				327CF2DA1600A2B500ED0B2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 327CF2B11600A2B500ED0B2E /* Project object */;
+}
