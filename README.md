@@ -19,5 +19,6 @@ Third, you need to implement `UIScrollViewDelegate -(void)scrollViewDidScroll:`
 }
 ```
 
+![Preview](https://raw.github.com/hellozimi/CellFold/master/preview.jpg)
 
 Cheers!
